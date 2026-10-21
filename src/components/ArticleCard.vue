@@ -1,4 +1,4 @@
-﻿<template>
+<template>
   <article class="article-card">
     <RouterLink :to="`/posts/${post.slug}`" class="card-image-wrap">
       <img
@@ -35,7 +35,8 @@
 
       <div class="card-footer">
         <RouterLink :to="`/posts/${post.slug}`" class="read-more-link">
-          Read Full Guide &rarr;
+          <span>Read Full Guide</span>
+          <span class="arrow">&rarr;</span>
         </RouterLink>
       </div>
     </div>
@@ -43,6 +44,8 @@
 </template>
 
 <script setup>
+import { RouterLink } from 'vue-router'
+
 defineProps({
   post: { type: Object, required: true }
 })
@@ -65,12 +68,14 @@ function formatDate(dateStr) {
   overflow: hidden;
   display: flex;
   flex-direction: column;
-  transition: transform 0.2s ease, border-color 0.2s ease;
+  transition: transform 0.2s ease, border-color 0.2s ease, box-shadow 0.2s ease;
+  width: 100%;
 }
 
 .article-card:hover {
-  transform: translateY(-4px);
+  transform: translateY(-3px);
   border-color: rgba(16, 185, 129, 0.4);
+  box-shadow: 0 10px 25px -5px rgba(0, 0, 0, 0.4);
 }
 
 .card-image-wrap {
@@ -86,7 +91,7 @@ function formatDate(dateStr) {
   width: 100%;
   height: 100%;
   object-fit: cover;
-  transition: transform 0.3s ease;
+  transition: transform 0.35s ease;
 }
 
 .article-card:hover .card-img {
@@ -95,19 +100,20 @@ function formatDate(dateStr) {
 
 .card-badge {
   position: absolute;
-  top: 12px;
-  left: 12px;
+  top: 10px;
+  left: 10px;
   color: #ffffff;
-  font-size: 0.6875rem;
+  font-size: 0.65rem;
   font-weight: 700;
   text-transform: uppercase;
   letter-spacing: 0.04em;
-  padding: 0.25rem 0.65rem;
+  padding: 0.2rem 0.55rem;
   border-radius: 9999px;
+  box-shadow: 0 2px 4px rgba(0,0,0,0.3);
 }
 
 .card-content {
-  padding: 1.25rem;
+  padding: 1.15rem;
   display: flex;
   flex-direction: column;
   flex: 1;
@@ -116,17 +122,17 @@ function formatDate(dateStr) {
 .card-meta {
   display: flex;
   align-items: center;
-  gap: 0.5rem;
-  font-size: 0.75rem;
+  gap: 0.45rem;
+  font-size: 0.71875rem;
   color: var(--text-subtle);
-  margin-bottom: 0.6rem;
+  margin-bottom: 0.5rem;
 }
 
 .card-title {
-  font-size: 1.125rem;
+  font-size: 1.05rem;
   font-weight: 700;
   line-height: 1.4;
-  margin-bottom: 0.6rem;
+  margin-bottom: 0.55rem;
 }
 
 .card-title a {
@@ -139,33 +145,38 @@ function formatDate(dateStr) {
 }
 
 .card-summary {
-  font-size: 0.84375rem;
+  font-size: 0.8125rem;
   color: var(--text-muted);
   line-height: 1.55;
   display: -webkit-box;
   -webkit-line-clamp: 3;
   -webkit-box-orient: vertical;
   overflow: hidden;
-  margin-bottom: 1.25rem;
+  margin-bottom: 1rem;
   flex: 1;
 }
 
 .card-footer {
   margin-top: auto;
   border-top: 1px solid var(--border-subtle);
-  padding-top: 0.75rem;
+  padding-top: 0.65rem;
 }
 
 .read-more-link {
-  font-size: 0.8125rem;
+  font-size: 0.78125rem;
   font-weight: 600;
   color: var(--brand-emerald-light);
   display: inline-flex;
   align-items: center;
-  gap: 0.25rem;
+  gap: 0.35rem;
+  transition: gap 0.15s ease;
 }
 
-.read-more-link:hover {
-  text-decoration: underline;
+.read-more-link .arrow {
+  transition: transform 0.15s ease;
+}
+
+.read-more-link:hover .arrow {
+  transform: translateX(3px);
 }
 </style>
