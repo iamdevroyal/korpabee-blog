@@ -1,10 +1,40 @@
-﻿<?xml version="1.0" encoding="UTF-8"?>
+<?xml version="1.0" encoding="UTF-8"?>
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
+  <!-- Core Home -->
   <url>
     <loc>https://blog.korpabee.com/</loc>
     <changefreq>daily</changefreq>
     <priority>1.0</priority>
   </url>
+
+  <!-- Categories -->
+  <url>
+    <loc>https://blog.korpabee.com/category/nysc-news</loc>
+    <changefreq>daily</changefreq>
+    <priority>0.85</priority>
+  </url>
+  <url>
+    <loc>https://blog.korpabee.com/category/pre-camp</loc>
+    <changefreq>daily</changefreq>
+    <priority>0.85</priority>
+  </url>
+  <url>
+    <loc>https://blog.korpabee.com/category/orientation-camp</loc>
+    <changefreq>daily</changefreq>
+    <priority>0.85</priority>
+  </url>
+  <url>
+    <loc>https://blog.korpabee.com/category/ppa-and-cds</loc>
+    <changefreq>daily</changefreq>
+    <priority>0.85</priority>
+  </url>
+  <url>
+    <loc>https://blog.korpabee.com/category/finance-and-career</loc>
+    <changefreq>daily</changefreq>
+    <priority>0.85</priority>
+  </url>
+
+  <!-- Key Guides -->
   <url>
     <loc>https://blog.korpabee.com/posts/nysc-2026-mobilization-calendar-official-batch-dates-registration-windows-and-camp-schedules</loc>
     <changefreq>weekly</changefreq>

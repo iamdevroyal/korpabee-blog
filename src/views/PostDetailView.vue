@@ -2,7 +2,7 @@
   <div style="width: 100%; max-width: 100%; overflow-x: hidden;">
     <!-- Loading State -->
     <div v-if="loading" style="padding: 6rem 0; text-align: center; color: var(--text-muted); font-size: 0.875rem;">
-      Loading article...
+      Loading verified guide...
     </div>
 
     <!-- 404 State -->
@@ -15,7 +15,7 @@
     <!-- Article Content -->
     <article v-else class="container" style="max-width: 820px; padding-top: 1.75rem; padding-bottom: 4rem;">
       <!-- Breadcrumbs -->
-      <nav class="article-breadcrumbs">
+      <nav class="article-breadcrumbs" aria-label="Breadcrumb">
         <RouterLink to="/" style="color: var(--text-muted);">Home</RouterLink>
         <span>&rsaquo;</span>
         <RouterLink
@@ -115,6 +115,33 @@
         </RouterLink>
       </div>
 
+      <!-- Related Articles Section -->
+      <div v-if="relatedPosts && relatedPosts.length" style="margin-top: 3.5rem; padding-top: 2rem; border-top: 1px solid var(--border-color);">
+        <h3 style="font-size: 1.25rem; font-weight: 700; color: #fff; margin-bottom: 1.25rem;">
+          Related Guides & Articles
+        </h3>
+        <div style="display: grid; grid-template-columns: repeat(auto-fill, minmax(240px, 1fr)); gap: 1.25rem;">
+          <RouterLink
+            v-for="rel in relatedPosts"
+            :key="rel.uuid || rel.slug"
+            :to="`/posts/${rel.slug}`"
+            class="related-card"
+          >
+            <div style="aspect-ratio: 16/9; overflow: hidden; border-radius: 8px; margin-bottom: 0.6rem; background: var(--bg-surface-elevated);">
+              <img
+                :src="rel.featured_image_url || 'https://images.unsplash.com/photo-1523240795612-9a054b0db644?w=500'"
+                :alt="rel.title"
+                style="width: 100%; height: 100%; object-fit: cover;"
+              />
+            </div>
+            <h4 style="font-size: 0.875rem; font-weight: 600; color: #fff; line-height: 1.4; display: -webkit-box; -webkit-line-clamp: 2; -webkit-box-orient: vertical; overflow: hidden;">
+              {{ rel.title }}
+            </h4>
+            <span style="font-size: 0.71875rem; color: var(--brand-emerald-light); margin-top: 0.35rem; display: inline-block;">Read Guide &rarr;</span>
+          </RouterLink>
+        </div>
+      </div>
+
       <!-- Bottom Engagement Banner -->
       <div class="bottom-engagement-banner">
         <div style="flex: 1;">
@@ -150,6 +177,7 @@ import InArticleAdSlot from '@/components/InArticleAdSlot.vue'
 
 const route = useRoute()
 const post = ref(null)
+const relatedPosts = ref([])
 const loading = ref(false)
 
 function formatDate(dateStr) {
@@ -164,26 +192,121 @@ function formatDate(dateStr) {
 async function fetchPost() {
   loading.value = true
   try {
-    const res = await blogApi.getPostBySlug(route.params.slug)
-    if (res.data && res.data.post) {
-      post.value = res.data.post
+    const res = await blogApi.getPost(route.params.slug)
+    const postData = res.data?.data || res.data?.post
+    if (postData) {
+      post.value = postData
+      relatedPosts.value = res.data?.related || []
       
-      // Dynamic Head Tags for SEO
+      const canonicalUrl = `https://blog.korpabee.com/posts/${post.value.slug}`
+      const metaDescription = post.value.meta_description || post.value.summary || ''
+      const ogImage = post.value.featured_image_url || 'https://blog.korpabee.com/og-image.png'
+      const keywords = post.value.tags?.map(t => t.name).join(', ') || 'NYSC, KorpaBee, Corps Members, Nigeria'
+
+      // Rich Schema.org JSON-LD for Search Engines & AI Search Engines (Perplexity, ChatGPT, Gemini, Copilot)
+      const schemaArticle = {
+        '@context': 'https://schema.org',
+        '@type': 'NewsArticle',
+        'headline': post.value.title,
+        'description': metaDescription,
+        'image': [ogImage],
+        'datePublished': post.value.published_at || post.value.created_at,
+        'dateModified': post.value.updated_at || post.value.published_at,
+        'author': {
+          '@type': 'Person',
+          'name': post.value.author?.name || 'KorpaBee Editorial Team',
+          'jobTitle': post.value.author?.role || 'Verified NYSC Editor',
+          'worksFor': {
+            '@type': 'Organization',
+            'name': 'KorpaBee',
+            'url': 'https://korpabee.com'
+          }
+        },
+        'publisher': {
+          '@type': 'Organization',
+          'name': 'KorpaBee Blog',
+          'url': 'https://blog.korpabee.com',
+          'logo': {
+            '@type': 'ImageObject',
+            'url': 'https://blog.korpabee.com/logo.png'
+          }
+        },
+        'mainEntityOfPage': {
+          '@type': 'WebPage',
+          '@id': canonicalUrl
+        },
+        'keywords': keywords,
+        'articleSection': post.value.category?.name || 'NYSC Guides',
+        'inLanguage': 'en-NG'
+      }
+
+      // BreadcrumbList Schema
+      const schemaBreadcrumbs = {
+        '@context': 'https://schema.org',
+        '@type': 'BreadcrumbList',
+        'itemListElement': [
+          {
+            '@type': 'ListItem',
+            'position': 1,
+            'name': 'Home',
+            'item': 'https://blog.korpabee.com'
+          },
+          ...(post.value.category ? [{
+            '@type': 'ListItem',
+            'position': 2,
+            'name': post.value.category.name,
+            'item': `https://blog.korpabee.com/category/${post.value.category.slug}`
+          }] : []),
+          {
+            '@type': 'ListItem',
+            'position': post.value.category ? 3 : 2,
+            'name': post.value.title,
+            'item': canonicalUrl
+          }
+        ]
+      }
+
+      // Dynamic Head Tags for SEO & AI Indexing
       useHead({
         title: `${post.value.title} | KorpaBee Blog`,
+        link: [
+          { rel: 'canonical', href: canonicalUrl }
+        ],
         meta: [
-          { name: 'description', content: post.value.meta_description || post.value.summary || '' },
+          { name: 'description', content: metaDescription },
+          { name: 'keywords', content: keywords },
+          { name: 'robots', content: 'index, follow, max-image-preview:large, max-snippet:-1, max-video-preview:-1' },
+          { property: 'og:site_name', content: 'KorpaBee Blog' },
+          { property: 'og:type', content: 'article' },
+          { property: 'og:url', content: canonicalUrl },
           { property: 'og:title', content: post.value.title },
-          { property: 'og:description', content: post.value.meta_description || post.value.summary || '' },
-          { property: 'og:image', content: post.value.featured_image_url || '/og-image.png' },
+          { property: 'og:description', content: metaDescription },
+          { property: 'og:image', content: ogImage },
+          { property: 'article:published_time', content: post.value.published_at || '' },
+          { property: 'article:section', content: post.value.category?.name || 'General' },
+          { name: 'twitter:card', content: 'summary_large_image' },
+          { name: 'twitter:site', content: '@korpabee' },
           { name: 'twitter:title', content: post.value.title },
-          { name: 'twitter:description', content: post.value.meta_description || post.value.summary || '' },
-          { name: 'twitter:image', content: post.value.featured_image_url || '/og-image.png' }
+          { name: 'twitter:description', content: metaDescription },
+          { name: 'twitter:image', content: ogImage }
+        ],
+        script: [
+          {
+            type: 'application/ld+json',
+            innerHTML: JSON.stringify(schemaArticle)
+          },
+          {
+            type: 'application/ld+json',
+            innerHTML: JSON.stringify(schemaBreadcrumbs)
+          }
         ]
       })
+    } else {
+      post.value = null
     }
   } catch (err) {
     console.error('Failed to load post:', err)
+    post.value = null
   } finally {
     loading.value = false
   }
@@ -237,6 +360,20 @@ onMounted(() => {
   border-radius: 50%;
   object-fit: cover;
   background: var(--bg-surface-elevated);
+}
+
+.related-card {
+  background: var(--bg-surface);
+  border: 1px solid var(--border-color);
+  border-radius: var(--radius-md);
+  padding: 0.75rem;
+  transition: transform 0.2s ease, border-color 0.2s ease;
+  display: flex;
+  flex-direction: column;
+}
+.related-card:hover {
+  transform: translateY(-2px);
+  border-color: rgba(16, 185, 129, 0.4);
 }
 
 .bottom-engagement-banner {

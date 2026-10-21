@@ -34,6 +34,7 @@ const apiClient = axios.create({
 export const blogApi = {
   getPosts: (params = {}) => apiClient.get('/posts', { params }),
   getPost: (slug) => apiClient.get(`/posts/${slug}`),
+  getPostBySlug: (slug) => apiClient.get(`/posts/${slug}`),
   getCategories: () => apiClient.get('/categories'),
   getTags: () => apiClient.get('/tags'),
   getAds: (placement = 'in_article') => apiClient.get('/ads', { params: { placement } }),

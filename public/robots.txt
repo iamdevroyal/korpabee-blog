@@ -1,20 +1,56 @@
-﻿User-agent: *
+# https://www.robotstxt.org/robotstxt.html
+# Robots.txt for KorpaBee Blog (https://blog.korpabee.com)
+
+User-agent: *
+Allow: /
+Allow: /llms.txt
+Allow: /llms-full.txt
+
+# Traditional Search Engine Crawlers
+User-agent: Googlebot
 Allow: /
 
-# Fast indexing directive for AI search engines & crawlers
+User-agent: Bingbot
+Allow: /
+
+User-agent: Yandex
+Allow: /
+
+User-agent: Baiduspider
+Allow: /
+
+User-agent: DuckDuckBot
+Allow: /
+
+# AI Crawlers & LLM Indexers
 User-agent: GPTBot
 Allow: /
 
-User-agent: PerplexityBot
+User-agent: ChatGPT-User
 Allow: /
 
 User-agent: ClaudeBot
 Allow: /
 
-User-agent: Googlebot
+User-agent: Claude-Web
 Allow: /
 
-User-agent: Bingbot
+User-agent: PerplexityBot
+Allow: /
+
+User-agent: OAI-SearchBot
+Allow: /
+
+User-agent: Google-Extended
+Allow: /
+
+User-agent: Applebot-Extended
+Allow: /
+
+User-agent: Amazonbot
+Allow: /
+
+User-agent: cohere-ai
 Allow: /
 
 Sitemap: https://blog.korpabee.com/sitemap.xml

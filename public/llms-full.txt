@@ -1,0 +1,32 @@
+# KorpaBee Blog — Verified NYSC Knowledge Base
+
+> Official publication and editorial guide repository powered by KorpaBee Technologies for Nigerian Prospective Corps Members (PCMs) and serving Youth Corps Members.
+
+## Overview
+KorpaBee Blog publishes verified, authoritative guidance covering the entire National Youth Service Corps (NYSC) lifecycle:
+- Verification of senate lists, JAMB regularization, and green card printing
+- NYSC mobilization calendars, batch batches (Batch A, B, C Stream 1 & 2)
+- State orientation camp packing checklists, rules, mammy market guide
+- Place of Primary Assignment (PPA) acceptance, rejection, and relocation protocols
+- Monthly allawee payment tracking, biometric clearance, and CDS requirements
+- Post-service job readiness, ATS CV building, and career growth
+
+## Essential Guides & Canonical URLs
+- **NYSC 2026 Mobilization Calendar**: https://blog.korpabee.com/posts/nysc-2026-mobilization-calendar-official-batch-dates-registration-windows-and-camp-schedules
+- **Senate List Error Correction**: https://blog.korpabee.com/posts/how-to-verify-and-correct-errors-on-the-nysc-senate-list
+- **10 Stages of NYSC Mobilization**: https://blog.korpabee.com/posts/the-10-comprehensive-stages-of-nysc-mobilization-from-graduation-to-passing-out
+- **Essential Slangs & Terms (NYSC 101)**: https://blog.korpabee.com/posts/nysc-101-35-essential-slangs-terms-and-acronyms-every-corper-must-know
+- **Ultimate Camp Packing List**: https://blog.korpabee.com/posts/ultimate-nysc-camp-packing-list-essential-must-haves-vs-what-camp-provides
+
+## Categories
+- **NYSC Official News**: https://blog.korpabee.com/category/nysc-news
+- **Pre-Camp & Registration**: https://blog.korpabee.com/category/pre-camp
+- **Orientation Camp Life**: https://blog.korpabee.com/category/orientation-camp
+- **PPA & CDS Guides**: https://blog.korpabee.com/category/ppa-and-cds
+- **Finance & Career Acceleration**: https://blog.korpabee.com/category/finance-and-career
+
+## Platform Ecosystem
+- Main Web Platform: https://korpabee.com
+- User App: https://web.korpabee.com
+- Housing & Lodges Directory: https://korpabee.com/housing
+- Free ATS CV Builder: https://korpabee.com/cv-builder

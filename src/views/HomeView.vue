@@ -119,8 +119,30 @@ import ArticleCard from '@/components/ArticleCard.vue'
 
 useHead({
   title: 'KorpaBee Blog — Verified NYSC News, Guides, and Survival Tips',
+  link: [
+    { rel: 'canonical', href: 'https://blog.korpabee.com' }
+  ],
   meta: [
-    { name: 'description', content: 'Authoritative resource for Nigerian Prospective Corps Members and active Corpers.' }
+    { name: 'description', content: 'Authoritative resource for Nigerian Prospective Corps Members and active Corpers. Stay updated with verified senate lists, mobilization dates, and camp survival guides.' },
+    { name: 'keywords', content: 'NYSC, NYSC Blog, Senate List, Call Up Letter, NYSC Mobilization, NYSC Camp, Allawee, KorpaBee, CDS, PPA' },
+    { name: 'robots', content: 'index, follow, max-image-preview:large, max-snippet:-1, max-video-preview:-1' },
+    { property: 'og:site_name', content: 'KorpaBee Blog' },
+    { property: 'og:type', content: 'website' },
+    { property: 'og:url', content: 'https://blog.korpabee.com' },
+    { property: 'og:title', content: 'KorpaBee Blog — Verified NYSC News, Guides, and Survival Tips' },
+    { property: 'og:description', content: 'Your trusted companion for NYSC service year survival, finance, and career acceleration.' },
+    { property: 'og:image', content: 'https://blog.korpabee.com/og-image.png' },
+    { name: 'twitter:card', content: 'summary_large_image' },
+    { name: 'twitter:site', content: '@korpabee' },
+    { name: 'twitter:title', content: 'KorpaBee Blog — Verified NYSC News & Guides' },
+    { name: 'twitter:description', content: 'Authoritative newsroom and survival guides for Nigerian Prospective Corps Members.' },
+    { name: 'twitter:image', content: 'https://blog.korpabee.com/og-image.png' }
+  ],
+  script: [
+    {
+      type: 'application/ld+json',
+      innerHTML: JSON.stringify({"@context":"https://schema.org","@type":"WebSite","name":"KorpaBee Blog","url":"https://blog.korpabee.com","description":"Authoritative newsroom, verified NYSC survival guides, mobilization calendars, senate list tips, and career acceleration for Nigerian Corps Members.","publisher":{"@type":"Organization","name":"KorpaBee Technologies","url":"https://korpabee.com","logo":"https://blog.korpabee.com/logo.png","sameAs":["https://twitter.com/korpabee","https://facebook.com/korpabee","https://instagram.com/korpabee"]},"potentialAction":{"@type":"SearchAction","target":"https://blog.korpabee.com/?search={search_term_string}","query-input":"required name=search_term_string"}})
+    }
   ]
 })
 
