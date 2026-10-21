@@ -106,9 +106,9 @@ import logoIcon from '@/assets/logo-icon.png'
   font-size: 0.625rem;
   font-weight: 700;
   text-transform: uppercase;
-  color: var(--brand-emerald-light);
-  background: rgba(16, 185, 129, 0.15);
-  border: 1px solid rgba(16, 185, 129, 0.3);
+  color: var(--brand-primary-light);
+  background: rgba(103, 64, 221, 0.2);
+  border: 1px solid rgba(163, 140, 235, 0.35);
   padding: 0.1rem 0.4rem;
   border-radius: 9999px;
   margin-left: 0.25rem;

@@ -35,7 +35,7 @@
             <div class="hero-actions">
               <RouterLink
                 :to="`/posts/${featuredPost.slug}`"
-                class="btn-emerald"
+                class="btn-primary"
                 style="padding: 0.6rem 1.25rem; font-size: 0.84375rem;"
               >
                 Read Full Story &rarr;
@@ -207,7 +207,7 @@ onMounted(() => {
 
 <style scoped>
 .hero-spotlight {
-  background: linear-gradient(180deg, rgba(16, 185, 129, 0.08) 0%, transparent 100%);
+  background: linear-gradient(180deg, rgba(60, 12, 160, 0.15) 0%, transparent 100%);
   padding: 2rem 0 1.5rem;
   border-bottom: 1px solid var(--border-subtle);
 }
@@ -289,7 +289,7 @@ onMounted(() => {
 }
 
 .hero-title-link:hover {
-  color: var(--brand-emerald-light);
+  color: var(--brand-primary-light);
 }
 
 .hero-summary {

@@ -71,7 +71,7 @@ onMounted(() => {
 <style scoped>
 .back-link {
   font-size: 0.75rem;
-  color: var(--brand-emerald-light);
+  color: var(--brand-primary-light);
   font-weight: 600;
   display: inline-flex;
   align-items: center;

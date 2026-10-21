@@ -74,7 +74,7 @@ function formatDate(dateStr) {
 
 .article-card:hover {
   transform: translateY(-3px);
-  border-color: rgba(16, 185, 129, 0.4);
+  border-color: rgba(163, 140, 235, 0.45);
   box-shadow: 0 10px 25px -5px rgba(0, 0, 0, 0.4);
 }
 
@@ -141,7 +141,7 @@ function formatDate(dateStr) {
 }
 
 .card-title a:hover {
-  color: var(--brand-emerald-light);
+  color: var(--brand-primary-light);
 }
 
 .card-summary {
@@ -165,7 +165,7 @@ function formatDate(dateStr) {
 .read-more-link {
   font-size: 0.78125rem;
   font-weight: 600;
-  color: var(--brand-emerald-light);
+  color: var(--brand-primary-light);
   display: inline-flex;
   align-items: center;
   gap: 0.35rem;

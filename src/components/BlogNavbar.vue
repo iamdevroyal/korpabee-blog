@@ -24,7 +24,7 @@
           href="https://korpabee.com"
           target="_blank"
           rel="noopener noreferrer"
-          class="btn-emerald"
+          class="btn-primary"
         >
           Open App
         </a>
@@ -82,7 +82,7 @@
           href="https://web.korpabee.com/register"
           target="_blank"
           rel="noopener noreferrer"
-          class="btn-emerald"
+          class="btn-primary"
           style="width: 100%; text-align: center;"
         >
           🎓 Join KorpaBee Free &rarr;

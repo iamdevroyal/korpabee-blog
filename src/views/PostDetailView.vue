@@ -9,7 +9,7 @@
     <div v-else-if="!post" style="padding: 6rem 0; text-align: center;">
       <h2 style="font-size: 1.5rem; margin-bottom: 0.75rem;">Article Not Found</h2>
       <p style="color: var(--text-muted); margin-bottom: 1.5rem; font-size: 0.875rem;">The guide you requested may have moved or been updated.</p>
-      <RouterLink to="/" class="btn-emerald">Return to Blog Home</RouterLink>
+      <RouterLink to="/" class="btn-primary">Return to Blog Home</RouterLink>
     </div>
 
     <!-- Article Content -->
@@ -64,7 +64,7 @@
           <p style="font-size: 0.84375rem; font-weight: 600; color: #fff;">
             {{ post.author?.name || 'KorpaBee Editorial Team' }}
           </p>
-          <p style="font-size: 0.71875rem; color: var(--brand-emerald-light);">
+          <p style="font-size: 0.71875rem; color: var(--brand-primary-light);">
             {{ post.author?.role || 'Verified NYSC Editor' }}
           </p>
         </div>
@@ -137,7 +137,7 @@
             <h4 style="font-size: 0.875rem; font-weight: 600; color: #fff; line-height: 1.4; display: -webkit-box; -webkit-line-clamp: 2; -webkit-box-orient: vertical; overflow: hidden;">
               {{ rel.title }}
             </h4>
-            <span style="font-size: 0.71875rem; color: var(--brand-emerald-light); margin-top: 0.35rem; display: inline-block;">Read Guide &rarr;</span>
+            <span style="font-size: 0.71875rem; color: var(--brand-primary-light); margin-top: 0.35rem; display: inline-block;">Read Guide &rarr;</span>
           </RouterLink>
         </div>
       </div>
@@ -156,7 +156,7 @@
           href="https://web.korpabee.com/register"
           target="_blank"
           rel="noopener noreferrer"
-          class="btn-emerald"
+          class="btn-primary"
           style="padding: 0.55rem 1.15rem; font-size: 0.8125rem; flex-shrink: 0;"
         >
           Join KorpaBee Free &rarr;
@@ -373,14 +373,14 @@ onMounted(() => {
 }
 .related-card:hover {
   transform: translateY(-2px);
-  border-color: rgba(16, 185, 129, 0.4);
+  border-color: rgba(163, 140, 235, 0.45);
 }
 
 .bottom-engagement-banner {
   margin-top: 3.5rem;
   padding: 1.35rem;
-  background: linear-gradient(135deg, rgba(6, 78, 59, 0.4) 0%, rgba(17, 23, 38, 0.8) 100%);
-  border: 1px solid rgba(16, 185, 129, 0.3);
+  background: linear-gradient(135deg, rgba(60, 12, 160, 0.45) 0%, rgba(15, 5, 43, 0.85) 100%);
+  border: 1px solid rgba(163, 140, 235, 0.35);
   border-radius: var(--radius-md);
   display: flex;
   flex-direction: column;
