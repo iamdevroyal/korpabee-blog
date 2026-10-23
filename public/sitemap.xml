@@ -34,29 +34,124 @@
     <priority>0.85</priority>
   </url>
 
-  <!-- Key Guides -->
+  <!-- Published Articles -->
   <url>
-    <loc>https://blog.korpabee.com/posts/nysc-2026-mobilization-calendar-official-batch-dates-registration-windows-and-camp-schedules</loc>
+    <loc>https://blog.korpabee.com/posts/how-to-make-friends-during-nysc-when-you-dont-know-anybody</loc>
+    <lastmod>2026-10-23T15:15:27.782Z</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.9</priority>
   </url>
   <url>
-    <loc>https://blog.korpabee.com/posts/nysc-101-35-essential-slangs-terms-and-acronyms-every-corper-must-know</loc>
+    <loc>https://blog.korpabee.com/posts/how-to-manage-your-nysc-allowance-in-2026-realistic-monthly-budget</loc>
+    <lastmod>2026-10-23T15:15:27.798Z</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.9</priority>
   </url>
   <url>
-    <loc>https://blog.korpabee.com/posts/how-to-verify-and-correct-errors-on-the-nysc-senate-list</loc>
+    <loc>https://blog.korpabee.com/posts/how-to-find-a-good-nysc-ppa-in-2026-12-questions-to-ask-before-accepting-a-placement</loc>
+    <lastmod>2026-10-23T15:15:27.798Z</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.9</priority>
   </url>
   <url>
-    <loc>https://blog.korpabee.com/posts/the-10-comprehensive-stages-of-nysc-mobilization-from-graduation-to-passing-out</loc>
+    <loc>https://blog.korpabee.com/posts/nysc-accommodation-guide-2026-7-common-rental-scams-and-how-to-find-affordable-rooms</loc>
+    <lastmod>2026-10-23T15:15:27.798Z</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.9</priority>
+  </url>
+  <url>
+    <loc>https://blog.korpabee.com/posts/what-happens-after-nysc-camp-guide-ppa-accommodation-cds-clearance-2026</loc>
+    <lastmod>2026-10-23T15:15:27.798Z</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.9</priority>
+  </url>
+  <url>
+    <loc>https://blog.korpabee.com/posts/your-nysc-call-up-letter-is-out-what-to-do-next-step-by-step-2026-guide</loc>
+    <lastmod>2026-10-23T15:15:27.798Z</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.9</priority>
+  </url>
+  <url>
+    <loc>https://blog.korpabee.com/posts/how-to-find-your-state-batch-and-camp-community-nysc-whatsapp-groups-2026</loc>
+    <lastmod>2026-10-23T15:15:27.798Z</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.9</priority>
+  </url>
+  <url>
+    <loc>https://blog.korpabee.com/posts/first-time-at-nysc-camp-15-things-nobody-properly-explains-before-you-go-2026-guide</loc>
+    <lastmod>2026-10-23T15:15:27.798Z</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.9</priority>
+  </url>
+  <url>
+    <loc>https://blog.korpabee.com/posts/nysc-accommodation-guide-2026-how-to-find-affordable-housing-and-avoid-rental-scams</loc>
+    <lastmod>2026-10-23T15:15:27.798Z</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.9</priority>
+  </url>
+  <url>
+    <loc>https://blog.korpabee.com/posts/nysc-whatsapp-group-links-2026-why-corps-members-need-more-than-another-group-chat</loc>
+    <lastmod>2026-10-23T15:15:27.798Z</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.9</priority>
+  </url>
+  <url>
+    <loc>https://blog.korpabee.com/posts/how-to-secure-your-nerd-clearance-slip-for-nysc-mobilization-without-delays</loc>
+    <lastmod>2026-10-23T15:15:27.798Z</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.9</priority>
+  </url>
+  <url>
+    <loc>https://blog.korpabee.com/posts/nysc-allawee-state-stipends-and-building-your-service-year-savings</loc>
+    <lastmod>2026-10-23T15:15:27.798Z</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.9</priority>
+  </url>
+  <url>
+    <loc>https://blog.korpabee.com/posts/nysc-relocation-and-redeployment-grounds-application-windows-and-approval-tips</loc>
+    <lastmod>2026-10-23T15:15:27.798Z</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.9</priority>
+  </url>
+  <url>
+    <loc>https://blog.korpabee.com/posts/nysc-medical-certificate-of-fitness-required-tests-government-hospital-criteria-samples</loc>
+    <lastmod>2026-10-23T15:15:27.798Z</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.9</priority>
+  </url>
+  <url>
+    <loc>https://blog.korpabee.com/posts/nysc-online-registration-guide-step-by-step-walkthrough-pitfalls-to-avoid</loc>
+    <lastmod>2026-10-23T15:15:27.798Z</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.9</priority>
   </url>
   <url>
     <loc>https://blog.korpabee.com/posts/ultimate-nysc-camp-packing-list-essential-must-haves-vs-what-camp-provides</loc>
+    <lastmod>2026-10-23T15:15:27.798Z</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.9</priority>
+  </url>
+  <url>
+    <loc>https://blog.korpabee.com/posts/the-10-comprehensive-stages-of-nysc-mobilization-from-graduation-to-passing-out</loc>
+    <lastmod>2026-10-23T15:15:27.798Z</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.9</priority>
+  </url>
+  <url>
+    <loc>https://blog.korpabee.com/posts/how-to-verify-and-correct-errors-on-the-nysc-senate-list</loc>
+    <lastmod>2026-10-23T15:15:27.798Z</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.9</priority>
+  </url>
+  <url>
+    <loc>https://blog.korpabee.com/posts/nysc-101-35-essential-slangs-terms-and-acronyms-every-corper-must-know</loc>
+    <lastmod>2026-10-23T15:15:27.798Z</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.9</priority>
+  </url>
+  <url>
+    <loc>https://blog.korpabee.com/posts/nysc-2026-mobilization-calendar-official-batch-dates-registration-windows-and-camp-schedules</loc>
+    <lastmod>2026-10-23T15:15:27.798Z</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.9</priority>
   </url>

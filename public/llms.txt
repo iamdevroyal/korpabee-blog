@@ -5,25 +5,61 @@
 ## Overview
 KorpaBee Blog publishes verified, authoritative guidance covering the entire National Youth Service Corps (NYSC) lifecycle:
 - Verification of senate lists, JAMB regularization, and green card printing
-- NYSC mobilization calendars, batch batches (Batch A, B, C Stream 1 & 2)
-- State orientation camp packing checklists, rules, mammy market guide
+- NYSC mobilization calendars, batch schedules (Batch A, B, C Stream 1 & 2)
+- State orientation camp packing checklists, rules, mammy market guides
 - Place of Primary Assignment (PPA) acceptance, rejection, and relocation protocols
 - Monthly allawee payment tracking, biometric clearance, and CDS requirements
+- Safe corper housing, avoiding rental scams, and flat sharing
 - Post-service job readiness, ATS CV building, and career growth
 
-## Essential Guides & Canonical URLs
-- **NYSC 2026 Mobilization Calendar**: https://blog.korpabee.com/posts/nysc-2026-mobilization-calendar-official-batch-dates-registration-windows-and-camp-schedules
-- **Senate List Error Correction**: https://blog.korpabee.com/posts/how-to-verify-and-correct-errors-on-the-nysc-senate-list
-- **10 Stages of NYSC Mobilization**: https://blog.korpabee.com/posts/the-10-comprehensive-stages-of-nysc-mobilization-from-graduation-to-passing-out
-- **Essential Slangs & Terms (NYSC 101)**: https://blog.korpabee.com/posts/nysc-101-35-essential-slangs-terms-and-acronyms-every-corper-must-know
-- **Ultimate Camp Packing List**: https://blog.korpabee.com/posts/ultimate-nysc-camp-packing-list-essential-must-haves-vs-what-camp-provides
+## Complete Published Guides & Canonical URLs
+- **How to Make Friends During NYSC When You Don't Know Anybody in Your State of Deployment**: https://blog.korpabee.com/posts/how-to-make-friends-during-nysc-when-you-dont-know-anybody
+  Arrived in your NYSC deployment state without knowing anyone? Discover practical ways to overcome loneliness, break the ice at camp and CDS, build genuine lifelong friendships as an introvert, spot red flags, and find your community on KorpaBee.
+- **How to Manage Your NYSC Allowance in 2026: A Realistic Monthly Budget for Corps Members**: https://blog.korpabee.com/posts/how-to-manage-your-nysc-allowance-in-2026-realistic-monthly-budget
+  Struggling to make your ₦77,000 NYSC allawee last the entire month? Discover realistic sample monthly budgets for corps members (rent vs. living with family), proven strategies to cut food and transit costs, how to build an emergency fund, avoid predatory loan apps, and monetize your skills legitimately on KorpaBee.
+- **How to Find a Good NYSC PPA in 2026: 12 Questions Every Corps Member Should Ask Before Accepting a Placement**: https://blog.korpabee.com/posts/how-to-find-a-good-nysc-ppa-in-2026-12-questions-to-ask-before-accepting-a-placement
+  Received your NYSC posting letter? Before you accept or reject your Place of Primary Assignment (PPA), evaluate these 12 critical questions on responsibilities, extra stipends, commute costs, accommodation, and career growth. Learn how to navigate rejections, reposting, and life after NYSC on KorpaBee.
+- **NYSC Accommodation Guide 2026: 7 Common Rental Scams and How to Find Affordable Rooms**: https://blog.korpabee.com/posts/nysc-accommodation-guide-2026-7-common-rental-scams-and-how-to-find-affordable-rooms
+  Finding safe, affordable accommodation after NYSC camp doesn't have to be an expensive nightmare. Discover how to identify 7 common rental scams, budget your rent vs daily commute, inspect properties thoroughly, evaluate tenancy agreements, and find verified rooms and roommates on KorpaBee.
+- **What Happens After NYSC Camp? A Complete Guide to PPA, Accommodation, CDS and Monthly Clearance (2026)**: https://blog.korpabee.com/posts/what-happens-after-nysc-camp-guide-ppa-accommodation-cds-clearance-2026
+  Orientation camp is over — now what? Learn the exact post-camp roadmap for 2026: reporting to your Place of Primary Assignment (PPA), handling rejection letters, finding verified accommodation, joining your CDS group, completing monthly clearance, and building your career on KorpaBee.
+- **Your NYSC Call-Up Letter Is Out: What to Do Next, Step by Step (2026 Guide)**: https://blog.korpabee.com/posts/your-nysc-call-up-letter-is-out-what-to-do-next-step-by-step-2026-guide
+  Just printed your NYSC call-up letter? Discover the exact step-by-step checklist for 2026: verifying registration details, correcting document errors, daylight travel planning, realistic camp budgeting, and preparing for life after camp on KorpaBee.
+- **How to Find Your State, Batch and Camp Community (NYSC WhatsApp Groups 2026 Guide)**: https://blog.korpabee.com/posts/how-to-find-your-state-batch-and-camp-community-nysc-whatsapp-groups-2026
+  Looking for active NYSC WhatsApp groups for your 2026 batch, stream, or state of deployment? Learn how to find legitimate peer communities, identify fake group admins, protect your personal data, and discover a unified ecosystem on KorpaBee.
+- **First Time at NYSC Camp? 15 Things Nobody Properly Explains Before You Go (2026 Guide)**: https://blog.korpabee.com/posts/first-time-at-nysc-camp-15-things-nobody-properly-explains-before-you-go-2026-guide
+  Preparing for your first NYSC orientation camp? From vital document checks and night travel warnings to realistic camp budgeting, communal living etiquette, and life after camp, discover the 15 practical survival truths every corps member needs to know before packing their bags.
+- **NYSC Accommodation Guide 2026: How to Find Affordable Housing and Avoid Rental Scams**: https://blog.korpabee.com/posts/nysc-accommodation-guide-2026-how-to-find-affordable-housing-and-avoid-rental-scams
+  Finding accommodation after NYSC orientation camp can be daunting. Learn how to verify employer-provided lodges, budget for rent and daily transport, avoid upfront rental scams, choose compatible corper roommates, and use KorpaBee to discover safe, affordable housing near your PPA.
+- **NYSC WhatsApp Group Links 2026: Why Corps Members Need More Than Another Group Chat**: https://blog.korpabee.com/posts/nysc-whatsapp-group-links-2026-why-corps-members-need-more-than-another-group-chat
+  Looking for NYSC WhatsApp group links in 2026? While group chats help you connect with your batch, their fast-paced and fragmented nature makes it easy to lose vital accommodation leads, jobs, and camp updates. Discover why Nigerian corps members need more than scattered groups, and how KorpaBee provides a unified community to connect, find lodges, discover career gigs, and thrive.
+- **How to Secure Your NERD Clearance Slip for NYSC Mobilization Without Delays**: https://blog.korpabee.com/posts/how-to-secure-your-nerd-clearance-slip-for-nysc-mobilization-without-delays
+  A complete overview of the National Education Repository and Databank (NERD) clearance slip required for NYSC mobilization. Learn how to verify your records smoothly.
+- **NYSC Allawee, State Stipends, and Building Your Service Year Savings**: https://blog.korpabee.com/posts/nysc-allawee-state-stipends-and-building-your-service-year-savings
+  How to optimize your federal allowance, claim additional state stipends, negotiate PPA allowances, and leverage KorpaBee tools to build substantial savings by POP.
+- **NYSC Relocation and Redeployment: Grounds, Application Windows, and Approval Tips**: https://blog.korpabee.com/posts/nysc-relocation-and-redeployment-grounds-application-windows-and-approval-tips
+  Need to redeploy on health, marital, or security grounds? Here is a clear guide on applying for NYSC relocation both inside orientation camp and after camp through your dashboard.
+- **NYSC Medical Certificate of Fitness: Required Tests, Government Hospital Criteria & Samples**: https://blog.korpabee.com/posts/nysc-medical-certificate-of-fitness-required-tests-government-hospital-criteria-samples
+  Everything you must know regarding the mandatory NYSC medical fitness report. Learn which clinical tests are required, accepted hospital categories, and what camp officials check.
+- **NYSC Online Registration Guide: Step-by-Step Walkthrough & Pitfalls to Avoid**: https://blog.korpabee.com/posts/nysc-online-registration-guide-step-by-step-walkthrough-pitfalls-to-avoid
+  A comprehensive walkthrough of the online NYSC registration portal. Learn how to complete thumbprinting, select preferred states, upload documents, and generate your call-up number.
+- **Ultimate NYSC Camp Packing List: Essential Must-Haves vs. What Camp Provides**: https://blog.korpabee.com/posts/ultimate-nysc-camp-packing-list-essential-must-haves-vs-what-camp-provides
+  Do not overpack or leave behind vital documents. Here is the ultimate packing checklist covering medical certificates, white tees, sneakers, waist pouches, and cash management.
+- **The 10 Comprehensive Stages of NYSC Mobilization: From Graduation to Passing-Out**: https://blog.korpabee.com/posts/the-10-comprehensive-stages-of-nysc-mobilization-from-graduation-to-passing-out
+  A complete roadmap of your entire service year journey. Learn what happens at every milestone from final year exams to obtaining your Certificate of National Service.
+- **How to Verify and Correct Errors on the NYSC Senate List**: https://blog.korpabee.com/posts/how-to-verify-and-correct-errors-on-the-nysc-senate-list
+  Encountered wrong date of birth, name misspelling, or "No Record Found" on the NYSC portal? Follow this tested troubleshooting guide to resolve all Senate list issues fast.
+- **NYSC 101: 35 Essential Slangs, Terms, and Acronyms Every Corper Must Know**: https://blog.korpabee.com/posts/nysc-101-35-essential-slangs-terms-and-acronyms-every-corper-must-know
+  From "Allawee" and "Mammy Market" to "Double-Up" and "Otondo", here is the complete dictionary of terms you will hear every day during your National Youth Service year.
+- **NYSC 2026 Mobilization Calendar: Official Batch Dates, Registration Windows, and Camp Schedules**: https://blog.korpabee.com/posts/nysc-2026-mobilization-calendar-official-batch-dates-registration-windows-and-camp-schedules
+  Stay fully updated on the official NYSC 2026 mobilization timetable. Learn exact registration deadlines, senate list upload schedules, and camp opening dates for Batches A, B, and C.
 
 ## Categories
-- **NYSC Official News**: https://blog.korpabee.com/category/nysc-news
+- **NYSC News & Updates**: https://blog.korpabee.com/category/nysc-news
 - **Pre-Camp & Registration**: https://blog.korpabee.com/category/pre-camp
 - **Orientation Camp Life**: https://blog.korpabee.com/category/orientation-camp
 - **PPA & CDS Guides**: https://blog.korpabee.com/category/ppa-and-cds
-- **Finance & Career Acceleration**: https://blog.korpabee.com/category/finance-and-career
+- **Finance, Allawee & Career**: https://blog.korpabee.com/category/finance-and-career
 
 ## Platform Ecosystem
 - Main Web Platform: https://korpabee.com
